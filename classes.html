@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classes & Timetable | Martial Arts Academy</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+    <!-- Navigation (Same as index.html) -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Martial<span>Arts</span> Academy</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="classes.html">Classes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="membership.html">Membership</a></li>
+                    <li class="nav-item"><a class="nav-link" href="instructors.html">Instructors</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="btn btn-outline-light ms-2" href="login.html">Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section" style="background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1594911477873-c6b8e2dd5a25?ixlib=rb-1.2.1&auto=format&fit=crop&w=1600&q=80');">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Our Classes</h1>
+            <p class="lead">Find the perfect martial arts discipline for you</p>
+        </div>
+    </section>
+
+    <!-- Martial Arts Disciplines -->
+    <section class="container py-5">
+        <h2 class="text-center mb-5">Martial Arts Disciplines</h2>
+        <div class="row">
+            <!-- Jiu-Jitsu -->
+            <div class="col-md-6 mb-4" id="jiujitsu">
+                <div class="card h-100">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="https://images.unsplash.com/photo-1542937303-6b841f5e6e7a?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" class="img-fluid rounded-start h-100" alt="Jiu-Jitsu">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h3 class="card-title">Brazilian Jiu-Jitsu</h3>
+                                <p class="card-text">Focus on ground fighting and submission holds. Perfect for those interested in grappling techniques and self-defense.</p>
+                                <ul class="list-unstyled">
+                                    <li><i class="fas fa-check text-success me-2"></i> Beginner to advanced levels</li>
+                                    <li><i class="fas fa-check text-success me-2"></i> Gi and No-Gi training</li>
+                                    <li><i class="fas fa-check text-success me-2"></i> Competition preparation</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Muay Thai -->
+            <div class="col-md-6 mb-4" id="muaythai">
+                <div class="card h-100">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="https://images.unsplash.com/photo-1599058917212-d750089bc07e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" class="img-fluid rounded-start h-100" alt="Muay Thai">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h3 class="card-title">Muay Thai</h3>
+                                <p class="card-text">The art of eight limbs using fists, elbows, knees, and shins. Great for fitness, self-defense, and competition.</p>
+                                <ul class="list-unstyled">
+                                    <li><i class="fas fa-check text-success me-2"></i> Certified Muay Thai coaches</li>
+                                    <li><i class="fas fa-check text-success me-2"></i> Pad work and sparring</li>
+                                    <li><i class="fas fa-check text-success me-2"></i> Fitness-focused sessions</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Karate -->
+            <div class="col-md-6 mb-4" id="karate">
+                <div class="card h-100">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" class="img-fluid rounded-start h-100" alt="Karate">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h3 class="card-title">Karate</h3>
+                                <p class="card-text">Traditional martial art focusing on striking techniques, discipline, and personal development.</p>
+                                <ul class="list-unstyled">
+                                    <li><i class="fas fa-check text-success me-2"></i> Kata and Kumite training</li>
+                                    <li><i class="fas fa-check text-success me-2"></i> Belt grading system</li>
+                                    <li><i class="fas fa-check text-success me-2"></i> Family-friendly classes</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Judo -->
+            <div class="col-md-6 mb-4" id="judo">
+                <div class="card h-100">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="https://images.unsplash.com/photo-1584634731339-252c581abfc5?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" class="img-fluid rounded-start h-100" alt="Judo">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h3 class="card-title">Judo</h3>
+                                <p class="card-text">Focus on throws, takedowns, and ground control. Olympic sport that develops balance and technique.</p>
+                                <ul class="list-unstyled">
+                                    <li><i class="fas fa-check text-success me-2"></i> 4th Dan Blackbelt instructor</li>
+                                    <li><i class="fas fa-check text-success me-2"></i> Competition training</li>
+                                    <li><i class="fas fa-check text-success me-2"></i> Self-defense applications</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timetable Section -->
+    <section class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Weekly Timetable</h2>
+            <div class="timetable">
+                <table class="table table-bordered table-hover">
+                    <thead>
+                        <tr>
+                            <th>Time</th>
+                            <th>Monday</th>
+                            <th>Tuesday</th>
+                            <th>Wednesday</th>
+                            <th>Thursday</th>
+                            <th>Friday</th>
+                            <th>Saturday</th>
+                            <th>Sunday</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- 06:00 - 07:30 -->
+                        <tr>
+                            <td>06:00 - 07:30</td>
+                            <td>Jiu-Jitsu</td>
+                            <td>Karate</td>
+                            <td>Judo</td>
+                            <td>Jiu-Jitsu</td>
+                            <td>Muay Thai</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                        <!-- 08:00 - 10:00 -->
+                        <tr>
+                            <td>08:00 - 10:00</td>
+                            <td>Muay Thai</td>
+                            <td>Private tuition</td>
+                            <td>Private tuition</td>
+                            <td>Private tuition</td>
+                            <td>Jiu-Jitsu</td>
+                            <td>Private tuition</td>
+                            <td>Private tuition</td>
+                        </tr>
+                        <!-- 10:30 - 12:00 -->
+                        <tr>
+                            <td>10:30 - 12:00</td>
+                            <td>Private tuition</td>
+                            <td>Private tuition</td>
+                            <td>Private tuition</td>
+                            <td>Private tuition</td>
+                            <td>Private tuition</td>
+                            <td>Judo</td>
+                            <td>Karate</td>
+                        </tr>
+                        <!-- 13:00 - 14:30 -->
+                        <tr>
+                            <td>13:00 - 14:30</td>
+                            <td>Open mat</td>
+                            <td>Open mat</td>
+                            <td>Open mat</td>
+                            <td>Open mat</td>
+                            <td>Open mat</td>
+                            <td>Karate</td>
+                            <td>Judo</td>
+                        </tr>
+                        <!-- 15:00 - 17:00 -->
+                        <tr>
+                            <td>15:00 - 17:00</td>
+                            <td>Kids Jiu-Jitsu</td>
+                            <td>Kids Judo</td>
+                            <td>Kids Karate</td>
+                            <td>Kids Jiu-Jitsu</td>
+                            <td>Kids Judo</td>
+                            <td>Muay Thai</td>
+                            <td>Jiu-Jitsu</td>
+                        </tr>
+                        <!-- 17:30 - 19:00 -->
+                        <tr>
+                            <td>17:30 - 19:00</td>
+                            <td>Karate</td>
+                            <td>Muay Thai</td>
+                            <td>Judo</td>
+                            <td>Jiu-Jitsu</td>
+                            <td>Muay Thai</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                        <!-- 19:00 - 21:00 -->
+                        <tr>
+                            <td>19:00 - 21:00</td>
+                            <td>Jiu-Jitsu</td>
+                            <td>Judo</td>
+                            <td>Jiu-Jitsu</td>
+                            <td>Karate</td>
+                            <td>Private tuition</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="mt-4">
+                <p class="text-muted"><small>* Open mat sessions allow for personal practice under supervision</small></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Specialist Courses -->
+    <section class="container py-5">
+        <h2 class="text-center mb-5">Specialist Courses</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <i class="fas fa-shield-alt fa-3x mb-3 text-primary"></i>
+                        <h4 class="card-title">Self-Defense Course</h4>
+                        <p class="card-text">6-week beginners' course (2 × 1-hour sessions per week)</p>
+                        <p class="price">£180.00</p>
+                        <a href="membership.html" class="btn btn-primary">Book Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <i class="fas fa-child fa-3x mb-3 text-primary"></i>
+                        <h4 class="card-title">Kids Programs</h4>
+                        <p class="card-text">Age-appropriate martial arts training for children</p>
+                        <p class="price">£25.00/month</p>
+                        <a href="membership.html" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100" id="selfdefense">
+                    <div class="card-body text-center">
+                        <i class="fas fa-running fa-3x mb-3 text-primary"></i>
+                        <h4 class="card-title">Fitness Training</h4>
+                        <p class="card-text">Personal fitness training and gym access</p>
+                        <p class="price">From £6.00/visit</p>
+                        <a href="membership.html" class="btn btn-primary">View Options</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (Same as index.html) -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h5>Martial Arts Academy</h5>
+                    <p>Master your potential with London's premier martial arts training facility.</p>
+                    <div class="social-links">
+                        <a href="#" class="me-3"><i class="fab fa-facebook fa-lg"></i></a>
+                        <a href="#" class="me-3"><i class="fab fa-twitter fa-lg"></i></a>
+                        <a href="#" class="me-3"><i class="fab fa-instagram fa-lg"></i></a>
+                        <a href="#"><i class="fab fa-youtube fa-lg"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="classes.html">Classes</a></li>
+                        <li><a href="membership.html">Membership</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Contact Info</h5>
+                    <p><i class="fas fa-map-marker-alt me-2"></i> 123 Training Street, London</p>
+                    <p><i class="fas fa-phone me-2"></i> (020) 7123 4567</p>
+                    <p><i class="fas fa-envelope me-2"></i> info@martialartsacademy.com</p>
+                </div>
+            </div>
+            <hr class="mt-4 mb-4">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p>&copy; 2026 Martial Arts Academy. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

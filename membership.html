@@ -1,0 +1,90 @@
+<!-- Add this section to the membership page -->
+
+<section class="container py-5">
+    <h2 class="text-center mb-5">Choose Your Membership</h2>
+    <div class="row">
+        <!-- Basic Membership -->
+        <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card pricing-card h-100">
+                <div class="card-body text-center">
+                    <h4 class="card-title">Basic</h4>
+                    <div class="price mb-3">£25<small>/month</small></div>
+                    <ul class="list-unstyled mb-4">
+                        <li class="mb-2"><i class="fas fa-check text-success me-2"></i> 1 martial art</li>
+                        <li class="mb-2"><i class="fas fa-check text-success me-2"></i> 2 sessions per week</li>
+                        <li class="mb-2"><i class="fas fa-check text-success me-2"></i> Basic facilities access</li>
+                        <li class="mb-2 text-muted"><i class="fas fa-times me-2"></i> No gym access</li>
+                        <li class="mb-2 text-muted"><i class="fas fa-times me-2"></i> No sauna/steam room</li>
+                    </ul>
+                    <button class="btn btn-outline-primary w-100" onclick="selectMembership('Basic')">Select</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Intermediate Membership -->
+        <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card pricing-card h-100">
+                <div class="card-body text-center">
+                    <h4 class="card-title">Intermediate</h4>
+                    <div class="price mb-3">£35<small>/month</small></div>
+                    <ul class="list-unstyled mb-4">
+                        <li class="mb-2"><i class="fas fa-check text-success me-2"></i> 1 martial art</li>
+                        <li class="mb-2"><i class="fas fa-check text-success me-2"></i> 3 sessions per week</li>
+                        <li class="mb-2"><i class="fas fa-check text-success me-2"></i> Gym access</li>
+                        <li class="mb-2"><i class="fas fa-check text-success me-2"></i> Changing facilities</li>
+                        <li class="mb-2 text-muted"><i class="fas fa-times me-2"></i> No sauna/steam room</li>
+                    </ul>
+                    <button class="btn btn-outline-primary w-100" onclick="selectMembership('Intermediate')">Select</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Advanced Membership -->
+        <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card pricing-card featured h-100">
+                <div class="card-body text-center">
+                    <div class="badge bg-warning text-dark mb-3">Most Popular</div>
+                    <h4 class="card-title">Advanced</h4>
+                    <div class="price mb-3">£45<small>/month</small></div>
+                    <ul class="list-unstyled mb-4">
+                        <li class="mb-2"><i class="fas fa-check text-success me-2"></i> Any 2 martial arts</li>
+                        <li class="mb-2"><i class="fas fa-check text-success me-2"></i> 5 sessions per week</li>
+                        <li class="mb-2"><i class="fas fa-check text-success me-2"></i> Full gym access</li>
+                        <li class="mb-2"><i class="fas fa-check text-success me-2"></i> Sauna & steam room</li>
+                        <li class="mb-2"><i class="fas fa-check text-success me-2"></i> 1 free private lesson</li>
+                    </ul>
+                    <button class="btn btn-primary w-100" onclick="selectMembership('Advanced')">Select</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Elite Membership -->
+        <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card pricing-card h-100">
+                <div class="card-body text-center">
+                    <h4 class="card-title">Elite</h4>
+                    <div class="price mb-3">£60<small>/month</small></div>
+                    <ul class="list-unstyled mb-4">
+                        <li class="mb-2"><i class="fas fa-check text-success me-2"></i> Unlimited classes</li>
+                        <li class="mb-2"><i class="fas fa-check text-success me-2"></i> All martial arts</li>
+                        <li class="mb-2"><i class="fas fa-check text-success me-2"></i> Full facilities access</li>
+                        <li class="mb-2"><i class="fas fa-check text-success me-2"></i> 2 free private lessons</li>
+                        <li class="mb-2"><i class="fas fa-check text-success me-2"></i> Priority booking</li>
+                    </ul>
+                    <button class="btn btn-outline-primary w-100" onclick="selectMembership('Elite')">Select</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Add this JavaScript function to handle membership selection -->
+<script>
+function selectMembership(type) {
+    // Store selection in localStorage
+    localStorage.setItem('selectedMembership', type);
+    
+    // Redirect to registration page
+    window.location.href = 'register.html';
+}
+</script>
